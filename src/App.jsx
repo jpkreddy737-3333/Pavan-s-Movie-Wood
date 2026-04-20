@@ -1,5 +1,5 @@
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
-import Movie from './pages/movie/movie.jsx';
+import Movie from './pages/movie/Movie.jsx';
 import Home from './pages/home/Home.jsx';
 import Moviedetails from './pages/movie-details/Moviedetails.jsx';
 import Navbar from './components/nav/Nav.jsx';
