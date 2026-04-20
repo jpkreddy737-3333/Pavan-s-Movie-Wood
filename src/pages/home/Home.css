@@ -1,0 +1,62 @@
+.home-data{
+   
+    color: white;
+}
+.home-1data {
+    font-size: 58px;
+    text-align: center;
+    align-items: center;
+    
+}
+.home-2data input{
+    padding: 0 15px;
+    font-size: 28px;
+    width: 300px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    height: 50px;
+    outline: none;
+}
+.home-2data button{
+    padding: 0px 20px;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 0px 25px 25px 0px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-weight: 800;
+    box-shadow: 0 0 15px red;
+}
+.home-2data button:hover{
+    background-color:  red;
+    color: black;
+}
+.home-2data input:focus{
+    outline: none;
+    box-shadow: 0 0 10px red;
+}
+.home-2data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-3data {
+    font-size: 58px;
+    font-weight: 800;
+    color: aqua;
+     text-align: center;
+    align-items: center;
+}
+.home-patforms{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    text-align: center;
+    margin: 25px auto;
+    cursor: pointer;
+}
+.home-patforms img{
+    border-radius: 20px;
+}
